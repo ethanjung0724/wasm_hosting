@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>exaEditor</title>
+    <link rel="stylesheet" href="WebApplication.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        /* 추가 스타일 */
+        #module-status {
+            margin: 1em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="mn-container">
+        <div class="mn-sizer">
+            <div class="mn-expander">
+                <div class="mn-listener">
+                    <canvas id="canvas"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="module-status">Initializing...</div>
+    <div id="module-status-description"></div>
+    
+    <script src="EmscriptenApplication.js"></script>
+    <script async src="exaEditor.js"></script>
+</body>
+</html>
